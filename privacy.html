@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vision: Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+<h1>Privacy Policy</h1>
+<p class="muted">Effective 15 October 2026</p>
+<p>Vision is a personal assistant app that runs on its owner's Mac and is used only by its owner. This policy explains what Vision does with Google user data.</p>
+
+<h2>What Google data Vision accesses</h2>
+<p>When the owner signs in with Google, Vision asks for two read-only permissions:</p>
+<ul>
+<li><code>https://www.googleapis.com/auth/gmail.readonly</code>: read Gmail messages (sender, subject, date and content).</li>
+<li><code>https://www.googleapis.com/auth/calendar.readonly</code>: read Google Calendar events.</li>
+</ul>
+<p>Vision never sends, modifies or deletes email or calendar events. It has no permission to do so.</p>
+
+<h2>How the data is used</h2>
+<p>Vision reads email and calendar data only when the owner asks for it (for example "What's on my calendar today?"), or for a short daily briefing the owner can accept or decline. To answer, the relevant email or calendar content is sent to Anthropic's Claude API, which powers Vision, and the answer is shown or spoken to the owner. It is used for nothing else.</p>
+
+<h2>Where the data is stored</h2>
+<p>The Google sign-in token is stored only on the owner's Mac, in a file readable only by the owner. Vision has no server of its own and does not keep a copy of the owner's mailbox or calendar. Conversations with Vision, and any notes the owner asks Vision to remember, are kept on the owner's Mac.</p>
+
+<h2>Sharing</h2>
+<p>Google user data is not sold, not shared with anyone other than Anthropic's Claude API for the purpose above, and not used for advertising. No data from Google APIs is used to develop, improve or train AI or machine learning models.</p>
+<p>Vision's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Revoking access</h2>
+<p>Access can be removed at any time in your Google Account: <a href="https://myaccount.google.com/connections">Security &gt; Third-party access</a> (Your connections to third-party apps &amp; services), then choose Vision and remove access. Deleting the token file on the Mac also disconnects Vision.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="https://github.com/glisovic01">github.com/glisovic01</a>.</p>
+<footer>Vision &middot; <a href="https://github.com/glisovic01">github.com/glisovic01</a></footer>
+</main>
+</body>
+</html>
